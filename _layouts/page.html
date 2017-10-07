@@ -42,14 +42,18 @@
   js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<nav class="navbar sticky-top navbar-expand-xl navbar-light bg-white">
-  <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+<nav class="navbar sticky-top navbar-expand-xl navbar-light bg-white justify-content-between">
+  <a class="navbar-brand" href="https://github.com/{{ site.github_username }}">
+    <img src="https://8amjp.github.io/site-icon.png" width="30" height="30" alt="{{ site.github_username }}">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse text-right" id="topnav">
-    <a href="https://github.com/{{ site.github_username }}{{ "/" | relative_url }}blob/master/{{ page.path }}" id="view-on-github" class="btn btn-outline-primary btn-sm" role="button"><span>View on GitHub</span></a>
     <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ "/" | relative_url }}">Home</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="{{ "/" | relative_url }}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           目次
@@ -64,6 +68,9 @@
         </div>
       </li>
     </ul>
+    <form class="form-inline">
+      <a href="https://github.com/{{ site.github_username }}{{ "/" | relative_url }}blob/master/{{ page.path }}" id="view-on-github" class="btn btn-outline-primary btn-sm" role="button"><span>View on GitHub</span></a>
+    </form>
   </div>
 </nav>
 {% if prev %}
