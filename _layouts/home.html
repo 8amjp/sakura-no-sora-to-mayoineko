@@ -54,14 +54,14 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline">
-      <a href="https://github.com/{{ site.github_username }}{{ "/" | relative_url }}" id="view-on-github" class="btn btn-outline-primary btn-sm" role="button"><span>View on GitHub</span></a>
-      <a href="https://github.com/{{ site.github_username }}{{ "/" | relative_url }}zipball/master" id="download-zip" class="btn btn-outline-primary btn-sm" role="button"><span>Download .zip</span></a>
-    </form>
   </div>
 </nav>
 
 <div class="container">
+  <section class="d-flex justify-content-end">
+    <a href="https://github.com/{{ site.github_username }}{{ "/" | relative_url }}" id="view-on-github" class="btn btn-outline-primary btn-sm" role="button"><span>View on GitHub</span></a>
+    <a href="https://github.com/{{ site.github_username }}{{ "/" | relative_url }}zipball/master" id="download-zip" class="btn btn-outline-primary btn-sm" role="button"><span>Download .zip</span></a>
+  </section>
   <section id="README" class="py-3">
   {{ content }}
   </section>
