@@ -19,4 +19,4 @@
 
 下記の小説投稿サイトでも公開しています。
 
-* [novelabo](https://www.novelabo.com/my/books/2531)
+* [note](https://note.mu/8am/n/nb876a3307e2c)

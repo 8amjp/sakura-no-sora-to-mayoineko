@@ -1,0 +1,47 @@
+{
+  "name": "sakura-no-sora-to-mayoineko",
+  "version": "1.0.0",
+  "description": "桜の空と迷い猫",
+  "main": "index.js",
+  "dependencies": {
+    "novel-builder": "latest"
+  },
+  "devDependencies": {},
+  "config": {
+    "epub_title": "桜の空と迷い猫",
+    "epub_title_file_as": "さくらのそらとまよいねこ",
+    "epub_author": "足羽川永都",
+    "epub_author_file_as": "あすわがわえいと",
+    "epub_publisher": "8novels",
+    "epub_publisher_file_as": "えいとのべるず"
+  },
+  "scripts": {
+    "novel-build": "novel-build",
+    "novel-build-alphapolis": "novel-build-alphapolis",
+    "novel-build-hameln": "novel-build-hameln",
+    "novel-build-kakuyomu": "novel-build-kakuyomu",
+    "novel-build-narou": "novel-build-narou",
+    "novel-build-note": "novel-build-note",
+    "novel-build-novelabo": "novel-build-novelabo",
+    "novel-png": "novel-png",
+    "novel-png-square": "novel-png-square",
+    "novel-png-paperback": "novel-png-paperback",
+    "novel-png-note-header": "novel-png-note-header",
+    "novel-png-twitter-header": "novel-png-twitter-header",
+    "novel-proofread": "novel-proofread",
+    "novel-publish": "novel-publish",
+    "novel-publish-horizontal": "novel-publish-horizontal",
+    "novel-publish-vertical": "novel-publish-vertical",
+    "novel-report": "novel-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8novels/sakura-no-sora-to-mayoineko.git"
+  },
+  "author": "8amjp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8novels/sakura-no-sora-to-mayoineko/issues"
+  },
+  "homepage": "https://github.com/8novels/sakura-no-sora-to-mayoineko#readme"
+}
